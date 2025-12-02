@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*================ VARIABLES CSS ==========*/
+
 
 :root {
   --header-height: 3rem;
 
-  /*======= Colors =======*/
-  /* Change Favorite color */
+ 
   --hue-color: 240;
 
-  /*========= HSL Color mode =========*/
+
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -23,7 +22,7 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-  /*========= Font and typography ===========*/
+
   --body-font: "Poppins", sans-serif;
 
   --big-font-size: 2rem;
@@ -34,13 +33,12 @@
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
 
-  /*=========== Font weight ==========*/
+
 
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*============ Margin Bottom ===========*/
-  /* .25rem = 4px, .5rem=8px, .75rem = 12px*/
+
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -82,7 +80,7 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
-/*================= Button Dark/Light ===============*/
+
 .nav__btns {
   display: flex;
   align-items: center;
@@ -99,7 +97,7 @@ body.dark-theme {
   color: var(--first-color);
 }
 
-/*================= Base ===============*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -244,22 +242,21 @@ img {
   color: var(--first-color-alt);
 }
 
-/* Show Menu */
 .show-menu {
   bottom: 0;
 }
 
-/* Active Link */
+
 .active-link {
   color: var(--first-color);
 }
 
-/* Change Background header */
+
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*========HOME=============*/
+
 .home__container {
   gap: 1rem;
 }
@@ -286,7 +283,7 @@ img {
 .home__blob {
   width: 200px;
   fill: var(--first-color);
-  /* fill: hsl(69, 69%, 61%); */
+ 
 }
 .home__blob-img {
   width: 180%;
@@ -340,7 +337,7 @@ img {
   font-size: 1.25rem;
 }
 
-/*================== Buttons ===================*/
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -388,13 +385,13 @@ img {
   color: var(--first-color-alt);
 }
 
-/*===================== About ==================*/
+
 .about__img {
   width: 170px;
   border-radius: 500%;
   justify-self: center;
   align-self: center;
-  /* border: 1px solid #fff; */
+
 }
 
 .about__description {
@@ -429,7 +426,7 @@ img {
   justify-content: center;
 }
 
-/*===================== SKILLS =========================*/
+
 
 .skills__container {
   row-gap: 0;
@@ -542,7 +539,7 @@ img {
   transform: rotate(-180deg);
 }
 
-/*==================== Qualifications ====================*/
+
 
 .qualification__tabs {
   display: flex;
@@ -614,7 +611,7 @@ img {
   color: var(--first-color);
 }
 
-/*================= Services ==================*/
+
 
 .services_container {
   gap: 1.5rem;
@@ -688,18 +685,18 @@ img {
   margin-right: var(--mb-0-25);
 }
 
-/* Active Modal */
+
 .active-modal {
   opacity: 1;
   visibility: visible;
 }
 
-/*================== Portfolio ==================*/
+
 
 .portfolio__container {
   overflow: initial;
 }
-/*need change*/
+
 .portfolio__content {
   padding: 0 1.5rem;
 }
@@ -747,7 +744,7 @@ img {
   outline: none;
 }
 
-/*================ Contact Me ===============*/
+
 
 .contact__container {
   row-gap: 2rem;
@@ -794,7 +791,7 @@ img {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
-/*=================== Footer ==================*/
+
 
 .footer {
   padding-top: 2rem;
@@ -862,7 +859,7 @@ img {
   color: #fff;
 }
 
-/*==================== Scroll Up ==================*/
+
 
 .scrollup {
   position: fixed;
@@ -890,7 +887,7 @@ img {
   bottom: 5rem;
 }
 
-/*====================== Scroll Bar =====================*/
+
 
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -907,7 +904,7 @@ img {
   background-color: var(--text-color-light);
 }
 
-/*======================== Media Queries ======================*/
+
 
 /* For Small Devices */
 @media screen and (max-width: 350px) {
